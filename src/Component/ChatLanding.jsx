@@ -102,7 +102,7 @@ const ChatLanding = () => {
                 onChange={(e) => setIsAdult(e.target.checked)}
                 className="h-5 w-5 rounded border-slate-300 text-purple-600 focus:ring-purple-500"
               />
-              <span className="text-sm font-medium">I confirm I am 18 years old or older.</span>
+              <span className="text-sm font-medium">I confirm I am 18 years old.</span>
             </label>
 
             <button

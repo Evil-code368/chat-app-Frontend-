@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import previewImage from "../assets/image.jpg";
 
 const Home = () => {
   const [showHowItWorks, setShowHowItWorks] = useState(false);
@@ -100,7 +101,7 @@ const Home = () => {
               </div>
 
               <img
-                src="./src/assets/image.jpg"
+                src={previewImage}
                 alt="Chat Preview"
                 className="h-56 w-full rounded-2xl object-cover"
               />
