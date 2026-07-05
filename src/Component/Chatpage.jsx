@@ -190,7 +190,7 @@ const Chat = () => {
   };
 
   return (
-    <div className="h-screen flex flex-col bg-slate-900 text-white">
+    <div className="min-h-screen flex flex-col bg-slate-900 text-white">
 
       {/* Header */}
       <div className="bg-slate-800 p-4 flex justify-between items-center shadow">
@@ -227,7 +227,7 @@ const Chat = () => {
       </div>
 
       {/* Chat Area */}
-      <div className="flex-1 overflow-y-auto p-5 space-y-4">
+      <div className="flex-1 min-h-0 overflow-y-auto p-5 space-y-4">
 
         {messages.map((msg, index) => (
           <div
@@ -292,7 +292,7 @@ const Chat = () => {
       {/* Input Section */}
       <div className="bg-slate-800 p-4">
 
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
 
           {/* Photo Button */}
           <button
