@@ -212,14 +212,14 @@ const Chat = () => {
         <div className="flex gap-3">
           <button
             onClick={nextStranger}
-            className="bg-yellow-500 hover:bg-yellow-600 px-4 py-2 rounded-lg"
+            className="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-lg"
           >
-            Next
+            Skip
           </button>
 
           <button
             onClick={handleDisconnect}
-            className="bg-red-500 hover:bg-red-600 px-4 py-2 rounded-lg"
+            className="bg-purple-600 hover:bg-purple-400 px-4 py-2 rounded-lg"
           >
             Disconnect
           </button>
@@ -266,7 +266,7 @@ const Chat = () => {
         {typing && (
           <div className="flex justify-start">
             <div className="bg-slate-700 px-4 py-3 rounded-xl">
-              Stranger is typing...
+               Typing...
             </div>
           </div>
         )}
@@ -276,7 +276,7 @@ const Chat = () => {
 
       {/* Emoji Bar */}
       <div className="px-4 py-2 flex gap-2 overflow-x-auto bg-slate-800">
-        {["😀", "😂", "😍", "❤️", "👍", "🔥", "😎", "🎉"].map(
+        {["😀", "😂", "😍", "❤️", "👍", "🔥","😡", "😎", "🎉"].map(
           (emoji) => (
             <button
               key={emoji}
@@ -332,7 +332,7 @@ const Chat = () => {
           {/* Send Button */}
           <button
             onClick={sendMessage}
-            className="bg-purple-600 hover:bg-purple-700 px-6 rounded-xl"
+            className="w-max px-4 py-2 bg-purple-600 hover:bg-purple-700  rounded-xl"
           >
             Send
           </button>
