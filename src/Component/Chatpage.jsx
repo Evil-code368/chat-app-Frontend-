@@ -214,7 +214,7 @@ const Chat = () => {
             onClick={nextStranger}
             className="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-lg"
           >
-            Skip
+            Next
           </button>
 
           <button
@@ -316,7 +316,7 @@ const Chat = () => {
           <input
             type="text"
             placeholder="Type a message..."
-            className="flex-1 bg-slate-700 rounded-xl px-4 py-3 outline-none"
+            className="flex-2 bg-slate-700 rounded-xl px-3 py-2 outline-none"
             value={message}
             onChange={handleTyping}
             onFocus={handleTypingStart}
