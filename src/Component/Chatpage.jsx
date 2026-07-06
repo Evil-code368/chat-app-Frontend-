@@ -316,7 +316,7 @@ const Chat = () => {
           <input
             type="text"
             placeholder="Type a message..."
-            className="flex-2 bg-slate-700 rounded-xl px-3 py-2 outline-none"
+            className="flex-1 min-w-0 bg-slate-700 rounded-xl px-3 py-2 outline-none"
             value={message}
             onChange={handleTyping}
             onFocus={handleTypingStart}
