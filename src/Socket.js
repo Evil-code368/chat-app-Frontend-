@@ -4,5 +4,5 @@ export const socket = io("https://chat-app-backend-api-ok19.onrender.com", {
   reconnection: true,
   reconnectionDelay: 1000,
   reconnectionDelayMax: 5000,
-  reconnectionAttempts: 5,
+  reconnectionAttempts: 50,
 });
