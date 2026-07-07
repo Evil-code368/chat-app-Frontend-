@@ -201,7 +201,7 @@ const Home = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/contact" className="transition hover:text-white">
+                  <a href="/Contact" className="transition hover:text-white">
                     Contact
                   </a>
                 </li>
