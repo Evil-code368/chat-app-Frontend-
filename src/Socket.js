@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-export const socket = io("https://chat-app-backend-api-ok19.onrender.com", {
+export const socket = io("https://https://api.chatlove.pro", {
   reconnection: true,
   reconnectionDelay: 1000,
   reconnectionDelayMax: 5000,
