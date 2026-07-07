@@ -162,6 +162,74 @@ const Home = () => {
           </div>
         </section>
       )}
+
+      {/* Footer */}
+      <footer className="border-t border-white/10 bg-slate-950 px-6 py-12 text-white">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-8 grid gap-8 sm:grid-cols-2 md:grid-cols-4">
+            <div>
+              <h3 className="mb-4 text-lg font-bold">
+                Chat<span className="text-purple-400">Love</span>
+              </h3>
+              <p className="text-sm text-gray-400">
+                Connect with strangers and make new friends instantly.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="mb-4 font-semibold">Product</h4>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li>
+                  <a href="/" className="transition hover:text-white">
+                    Random Chat
+                  </a>
+                </li>
+                <li>
+                  <a href="/About" className="transition hover:text-white">
+                    About
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="mb-4 font-semibold">Support</h4>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li>
+                  <a href="/safety" className="transition hover:text-white">
+                    Safety
+                  </a>
+                </li>
+                <li>
+                  <a href="/contact" className="transition hover:text-white">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="mb-4 font-semibold">Legal</h4>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li>
+                  <a href="/privacypolicy" className="transition hover:text-white">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="./Termscondition" className="transition hover:text-white">
+                    Terms & Condition
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="border-t border-white/10 pt-8 text-center text-sm text-gray-400">
+            <p>© 2026 ChatLove. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
     </>
   );
 };
