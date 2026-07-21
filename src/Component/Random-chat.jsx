@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { socket } from "../Socket";
 
-const ChatLanding = () => {
+const Randomchat = () => {
   const [showModal, setShowModal] = useState(false);
   const [connecting, setConnecting] = useState(false);
   const [name, setName] = useState("");
@@ -37,7 +37,7 @@ const ChatLanding = () => {
       if (data.strangerName) {
         sessionStorage.setItem("strangerName", data.strangerName);
       }
-      navigate("/chatpage");
+      navigate("/anonymous-chat");
     });
 
     // Listen for waiting event
@@ -144,4 +144,4 @@ const ChatLanding = () => {
 }               
 
 
-export default ChatLanding;
+export default Randomchat;

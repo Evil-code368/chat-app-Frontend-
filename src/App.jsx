@@ -1,8 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Home from './Component/Home'
-import ChatLanding from './Component/ChatLanding'
-import Chatpage from './Component/Chatpage'
+import Home from './Component/Stranger-chat'
+import StrangerChat from './Component/Stranger-chat'
+import Randomchat from './Component/Random-chat'
+import Anonymouschat from './Component/Anonymous-chat'
 import About from './Component/About'
 import Report from './Component/Report'
 import Safety from './Component/safety'
@@ -10,13 +11,15 @@ import Contact from './Component/Contact'
 import PrivacyPolicy from './Component/privacypolicy'
 import TermsOfUse from './Component/Termscondition'
 
+
+
 const App = () => {
   return (
     <Router>
       <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/chat' element={<ChatLanding />} />
-      <Route path='/chatpage' element={<Chatpage />} />
+      <Route path='/' element={<StrangerChat />} />
+      <Route path='/random-chat' element={<Randomchat />} />
+      <Route path='/anonymous-chat' element={<Anonymouschat />} />
       <Route path='/About' element={<About />} />
       <Route path='/Report' element={<Report />} />
       <Route path='/safety' element={<Safety />} />

@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import previewImage from "../assets/image.jpg";
 
-const Home = () => {
+const StrangerChat = () => {
   const [showHowItWorks, setShowHowItWorks] = useState(false);
   const howItWorksRef = useRef(null);
 
@@ -63,7 +63,7 @@ const Home = () => {
             </p>
 
             <div className="flex flex-col gap-4 sm:flex-row">
-              <Link to="/chat" className="inline-block">
+              <Link to="/random-chat" className="inline-block">
                 <button className="w-full rounded-2xl bg-purple-600 px-8 py-4 text-lg font-semibold text-white shadow-lg shadow-purple-500/30 transition hover:bg-purple-500 sm:w-auto">
                   Start Chatting
                 </button>
@@ -111,7 +111,7 @@ const Home = () => {
                 <p className="mt-1 text-emerald-200">Meet someone new in seconds.</p>
               </div>
 
-              <Link to="/chat" className="mt-6 inline-block w-full">
+              <Link to="/random-chat" className="mt-6 inline-block w-full">
                 <button className="w-full rounded-2xl bg-emerald-500 px-5 py-4 text-lg font-bold text-white transition hover:bg-emerald-400">
                   Start Random Chat →
                 </button>
@@ -234,4 +234,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default StrangerChat;

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { socket } from "../Socket";
 
-const Chat = () => {
+const Anonymouschat = () => {
   const [message, setMessage] = useState("");
   const [typing, setTyping] = useState(false);
   const [connected, setConnected] = useState(true);
@@ -342,4 +342,4 @@ const Chat = () => {
   );
 };
 
-export default Chat;
+export default Anonymouschat;
