@@ -18,6 +18,7 @@ const App = () => {
     <Router>
       <Routes>
       <Route path='/' element={<StrangerChat />} />
+      <Route path='/stranger-chat' element={<StrangerChat />}/>
       <Route path='/random-chat' element={<Randomchat />} />
       <Route path='/anonymous-chat' element={<Anonymouschat />} />
       <Route path='/About' element={<About />} />

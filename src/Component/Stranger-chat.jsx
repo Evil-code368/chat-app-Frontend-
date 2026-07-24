@@ -27,7 +27,7 @@ const StrangerChat = () => {
           </div>
 
           <div className="hidden items-center gap-8 md:flex">
-            <a href="./" className="font-medium text-gray-300 transition hover:text-white">
+            <a href="/stranger-chat" className="font-medium text-gray-300 transition hover:text-white">
               Home
             </a>
             <a href="/About" className="font-medium text-gray-300 transition hover:text-white">
@@ -50,7 +50,7 @@ const StrangerChat = () => {
         <div className="relative mx-auto grid min-h-screen max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
           <div>
             <span className="mb-6 inline-block rounded-full border border-purple-400/30 bg-purple-500/15 px-4 py-2 text-sm font-medium text-purple-200">
-              🌎 Connect with people worldwide
+              🌎 Connect with  random people worldwide
             </span>
 
             <h1 className="mb-6 text-5xl font-black leading-tight sm:text-6xl lg:text-7xl">
